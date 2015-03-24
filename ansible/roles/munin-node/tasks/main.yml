@@ -1,0 +1,5 @@
+- name : be sure munin-node is installed
+  yum  : name=munin-node state=installed
+  tags : muninNodeInstall
+
+

@@ -1,5 +1,5 @@
 ---
-- hosts: web01
+- hosts: db01
   sudo: yes
   tasks:
     - name: be sure httpd is installed

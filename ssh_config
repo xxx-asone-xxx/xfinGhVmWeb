@@ -1,0 +1,33 @@
+Host web101
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/kito/vm/geechs/.vagrant/machines/web101/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host db101
+  HostName 127.0.0.1
+  User vagrant
+  Port 2200
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/kito/vm/geechs/.vagrant/machines/db101/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host admin101
+  HostName 127.0.0.1
+  User vagrant
+  Port 2201
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/kito/vm/geechs/.vagrant/machines/admin101/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+

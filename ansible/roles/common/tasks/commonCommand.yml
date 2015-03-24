@@ -1,0 +1,18 @@
+---
+- name : install common install --- wget ---
+  yum  : name=yum state=installed
+  tags : commonInstall
+
+- name : install command install --- ansible ---
+  yum  : name=ansible state=installed
+  tags : commonInstall
+
+- name : install common command install --- git ---
+  yum  : name=git state=installed
+  tags : commonInstall
+
+- name : install common command install --- vim ---
+  yum  : name=vim state=installed
+  tags : commonInstall
+
+
